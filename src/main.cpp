@@ -2,9 +2,9 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "Skrillex";
-const char* password = "69996969";
-const char* serverUrl = "http://192.168.209.49:4000/";
+const char* ssid = "Your WiFi ssid";
+const char* password = "Your WiFi password";
+const char* serverUrl = "Your server URL";
 
 int thermistorPin = A2;
 int Vo;
